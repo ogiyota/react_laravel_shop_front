@@ -1,0 +1,285 @@
+
+.layout{
+    width: 100%;
+    display: flex;
+}
+
+.sideber{
+    margin: 1rem;
+    border-radius: 15px;
+    width: 17%;
+    background-color: aliceblue;
+    display: block;
+    font-size: 1.2rem;
+}
+
+.data{
+    list-style: none;
+    padding-top: 3rem;
+    display: flex;
+}
+
+.main{
+    width: 80%;
+}
+
+.title{
+    text-align: center;
+    margin-right: 1.5rem;
+}
+
+.iconname{
+    padding-left: 0.4rem;
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+}
+/* リスト */
+.item{
+    margin: 1rem;
+    margin-bottom: 1rem;
+    height: 13rem;
+    width: 13rem;
+    background-color: rgb(241, 241, 239);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 3px 3px 0;
+}
+
+.itemdata{
+    padding-left: 2rem;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemname{
+    padding-top: 1rem;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.searchber{
+    margin-left: 2rem;
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+    
+}
+
+.ctg_search{
+    padding-top: 2rem;
+    padding-left: 0rem;
+}
+
+.searchfield{
+    height: 2.5rem;
+    width: 18rem;
+}
+
+.searchbutton{
+    top: 1.5rem;
+    left: 0.3rem;
+}
+
+.title{
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.title_shopp{
+    padding-top: 1rem;
+    font-size: 1.4rem;
+    padding-left: 2rem;
+}
+
+.title_list{
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-left: 27rem;
+    display: flex;
+}
+
+.list_title{
+    padding-top: 1rem;
+}
+
+.logout{
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+/* board */
+.board{
+    max-width: 95%;
+}
+.boardtitle{
+    text-align: center;
+}
+
+.boardform{
+    width: 90%;
+}
+.boardinput{
+   left: 3rem;
+   width: 70%;
+}
+.boardbutton{
+    height: 3rem;
+    top: 4rem;
+    left: 3.3rem;
+}
+.right{
+    list-style: none;
+    float: right;
+    background-color: #d3f7d1;
+    width: 50%;
+
+}
+.left{
+    list-style: none;
+    float: left;
+    background-color: #bcbcbc;
+    width: 50%;
+}
+
+/* 詳細 */
+
+.detail{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.detailword{
+    padding-top: 2rem;
+    margin: auto;
+    max-width: 50%;
+    padding-bottom: 2.5rem;
+}
+
+.text{
+    width: 10rem;
+}
+/* confirm */
+.confirmword{
+    text-align: center;
+}
+.confirm{
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    text-align: center;
+    margin: auto;
+    background-color: aliceblue;
+    width: 50%;
+    height: 10rem;
+    border-radius: 15%;
+}
+
+.Modal {
+    position: absolute;
+    top:  60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+/* cart */
+table{
+    text-align: center;
+    border: 1px solid rgba(139, 139, 139, 0.5);
+    margin: auto;
+
+}
+
+.item_table{
+    width: 13rem;
+    align-items: center;
+    justify-content: center;
+}
+th{
+    height: 3rem;
+    background-color: aliceblue;
+    width: 9rem;
+}
+td{
+    max-width: 100%;
+    padding-bottom: 1rem;
+    margin: auto;
+}
+.td{
+    margin: auto;
+}
+
+.buy_button{
+    display: block;
+    text-align: center;
+    padding-left: 25rem;
+    padding-top: 3rem;
+}
+
+.num{
+    width: 7rem;
+}
+
+.user_name{
+    padding-top: 2rem;
+}
+
+/* add */
+
+.addform{
+
+    width: 90%;
+    margin-left: 8rem;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center
+    ;
+}
+
+
+
+.detailinput{
+    width: 70%;
+}
+
+.space{
+    padding-bottom: 3rem;
+}
+
+.file{
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.toast-message {
+    background-color: rgb(187, 232, 217);
+  }
+
+/* 履歴 */
+.date{
+    width: 13rem;
+}
+
+/* management */
+.mana_data{
+    text-align: center;
+}

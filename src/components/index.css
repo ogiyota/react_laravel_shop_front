@@ -1,0 +1,15 @@
+form{
+    text-align: center;
+}
+
+.form_text{
+    font-size: 2rem;
+}
+
+.inputtext{
+    width: 11rem;
+}
+
+.err_msg{
+    color: red;
+}
